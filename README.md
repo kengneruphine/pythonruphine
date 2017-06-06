@@ -1,2 +1,2 @@
 # pythonruphine
-Exercises used ot learn the Python programming language
+Exercises used to learn the Python programming language
