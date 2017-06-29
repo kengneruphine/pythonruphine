@@ -11,16 +11,16 @@ def generateNumber():
 	print "How much is %s times %s" %(st1,st2)
 	return product1
 
+product = generateNumber()	
+answer = int(raw_input("Enter the answer:"))
 
 while True:
-	product = generateNumber()	
-
-	answer = int(raw_input("Enter the answer:"))
+	
 	if answer == product:
 		print "very good"
 		product = generateNumber()
 		answer = int(raw_input("Enter the answer:"))
 
-	while (answer!=product):
+	else:
 		print "No,please try again"	
 		answer = int(raw_input("Enter the answer:"))

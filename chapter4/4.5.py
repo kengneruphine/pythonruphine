@@ -2,21 +2,17 @@
 
 def perfect(n):
 	sum= 0
-	for i in range (1,(n/2 + 1)):
+
+	for i in range (1,n):
 		if n % i==0:
-			print "%d,is a factor of %d"%(i,n)
 			sum += i
+			continue
 	
 
 	if sum == n:
-		print "\n"
 		print "%d is perfect number" %n
 	
 
-	else:
 
-		print '',
-
-
-for i in range (1,30):
-	print perfect(i)
+for i in range (1,1001):
+	 perfect(i)
