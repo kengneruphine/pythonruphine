@@ -33,8 +33,8 @@ class Rectangle:
 
 
 rectangle = Rectangle(2,4)
-print "The area is %f",Rectangle.area(rectangle)
-print "The perimeter is %f",Rectangle.perimeter(rectangle)	
+print "The area is ",Rectangle.area(rectangle)
+print "The perimeter is ",Rectangle.perimeter(rectangle)	
 
 #print "Enter new value of length"
 length= int(raw_input("Enter the new length:"))
